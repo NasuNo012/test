@@ -1,7 +1,7 @@
 private void Main(string[] args)
 {
-    var num1 = 1;
-    var num2 = 2;
+    var num1 = Math.Rand() * 10;
+    var num2 = Math.Rand() * 10;
 
     Console.WriteLine($"{num1} + {num2} = {num1 + num2}")
 }
